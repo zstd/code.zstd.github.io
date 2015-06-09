@@ -7,8 +7,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class GenerationParams {
 
-    public static final String DEFAULT_CONTENT_TYPE = "plain/text";
-    public static final Long DEFAULT_EXPIRATION_TIME = TimeUnit.MINUTES.toMillis(1L);
+    public static final String DEFAULT_CONTENT_TYPE = "text/plain";
+    public static final Long DEFAULT_EXPIRATION_TIME = TimeUnit.MINUTES.toMillis(10L);
 
     private final String contentType;
     private final Long expirationTimeMillis;

@@ -1,1 +1,0 @@
-This the text file to put to S3!
