@@ -1,2 +1,3 @@
 aws-public-presigned-url/target
 *.iml
+local.properties
